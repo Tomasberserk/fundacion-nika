@@ -53,6 +53,9 @@ fundacion-nika/
 - Email de contacto en `src/components/Footer.jsx`
 - Logo real en `src/assets/logo-nika.png`
 
+## Repositorio GitHub
+`https://github.com/Tomasberserk/fundacion-nika` — rama `main`
+
 ## Plan maestro
 Ver: `docs/superpowers/plans/2026-06-30-fundacion-nika-landing.md`
 
@@ -98,7 +101,18 @@ Ver: `docs/superpowers/plans/2026-06-30-fundacion-nika-landing.md`
   - `src/App.jsx` — layout raíz con `<Navbar />` + 3 secciones placeholder (`#hero`, `#about`, `#donaciones`)
 - **Build verificado:** ✅ 267ms, sin errores
 - **Git commit:** pendiente push a GitHub
-- **Próximo paso:** Bloque 2 — Sección Hero
+- **Próximo paso:** ~~Bloque 2 — Sección Hero~~ → completado ✅
+
+---
+
+### [2026-06-30] — Bloque 2: Hero ✅
+
+- **Estado:** Completo
+- **Archivos creados/modificados:**
+  - `src/components/Hero.jsx` — headline 3 líneas (Cinzel black), grid náutico decorativo, resplandor gold radial, CTA con glow, scroll hint animado
+  - `src/App.jsx` — `<Hero />` integrado, placeholders about/donaciones mantenidos
+- **Build verificado:** ✅ 388ms, sin errores
+- **Próximo paso:** Bloque 3 — About Us
 
 ---
 

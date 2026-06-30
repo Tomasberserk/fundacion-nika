@@ -1,16 +1,12 @@
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 export default function App() {
   return (
     <div className="bg-nika-navy min-h-screen text-nika-cream">
       <Navbar />
       <main>
-        <section
-          id="hero"
-          className="min-h-screen flex items-center justify-center pt-16"
-        >
-          <p className="text-nika-gold text-2xl font-cinzel">Hero — próximamente</p>
-        </section>
+        <Hero />
 
         <section
           id="about"
