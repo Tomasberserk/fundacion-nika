@@ -66,5 +66,54 @@ Ver: `docs/superpowers/plans/2026-06-30-fundacion-nika-landing.md`
   - Roadmap de 48 horas definido (8 bloques)
   - Plan técnico detallado con código completo por bloque
   - CLAUDE.md inicializado
-- **Próximo paso:** Ejecutar Bloque 0 — Scaffolding del proyecto Vite + React + Tailwind
-- **Pendiente de usuario:** Aprobación del roadmap para iniciar generación de código
+- **Próximo paso:** ~~Ejecutar Bloque 0~~ → completado ✅
+
+---
+
+### [2026-06-30] — Bloque 0: Scaffolding ✅
+
+- **Estado:** Completo — proyecto listo para desarrollo
+- **Archivos creados:**
+  - `fundacion-nika/` — directorio raíz del proyecto y repo git
+  - `vite.config.js` — Vite 5 con plugin Tailwind CSS v4
+  - `src/index.css` — tokens `@theme` (nika-navy, nika-gold, nika-cream, nika-red) + fuentes
+  - `index.html` — lang=es, meta SEO, Google Fonts (Cinzel, Pirata One, Inter)
+  - `src/App.jsx` — esqueleto limpio sin código Vite default
+  - `src/main.jsx` — sin cambios (ya importaba index.css)
+  - `vercel.json` — rewrite SPA
+  - `src/assets/.gitkeep` — carpeta lista para imágenes
+  - `CLAUDE.md` y `docs/` — incluidos en el repo
+- **Dependencias instaladas:** `tailwindcss@^4`, `@tailwindcss/vite`
+- **Build verificado:** `npm run build` → ✅ sin errores, 252ms
+- **Git:** `git init` + commit inicial (`390fea4`)
+- **Próximo paso:** ~~Bloque 1 — Navbar~~ → completado ✅
+
+---
+
+### [2026-06-30] — Bloque 1: Navbar ✅
+
+- **Estado:** Completo
+- **Archivos creados/modificados:**
+  - `src/components/Navbar.jsx` — nav fija (z-50), logo ⚓ con `font-pirata`, links "Nosotros" / "Donar" ocultos en mobile (`hidden md:flex`), botón "¡Donar ahora!" siempre visible
+  - `src/App.jsx` — layout raíz con `<Navbar />` + 3 secciones placeholder (`#hero`, `#about`, `#donaciones`)
+- **Build verificado:** ✅ 267ms, sin errores
+- **Git commit:** pendiente push a GitHub
+- **Próximo paso:** Bloque 2 — Sección Hero
+
+---
+
+### Conectar GitHub + Vercel (acción manual del usuario)
+
+1. Ir a [github.com/new](https://github.com/new) → crear repo `fundacion-nika` (público)
+2. En terminal, desde `fundacion-nika/`:
+   ```bash
+   git remote add origin https://github.com/TU_USUARIO/fundacion-nika.git
+   git push -u origin master
+   ```
+3. Ir a [vercel.com](https://vercel.com) → **New Project** → importar `fundacion-nika`
+4. Configurar:
+   - **Root Directory:** `fundacion-nika` (si el repo contiene solo esta carpeta, dejar vacío)
+   - **Framework Preset:** Vite (auto-detectado)
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `dist`
+5. Click **Deploy** → URL pública lista en ~60s
