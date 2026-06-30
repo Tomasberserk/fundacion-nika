@@ -123,7 +123,23 @@ Ver: `docs/superpowers/plans/2026-06-30-fundacion-nika-landing.md`
   - `src/components/AboutUs.jsx` — 3 feature cards (BARF, propósito, cómo funciona), separadores gold, quote One Piece con `font-pirata`
   - `src/App.jsx` — `<AboutUs />` integrado
 - **Build verificado:** ✅ 273ms, sin errores
-- **Próximo paso:** Bloque 4 — Donaciones (Bounty Posters)
+- **Próximo paso:** ~~Bloque 4 — Donaciones~~ → completado ✅
+
+---
+
+### [2026-06-30] — Bloque 4: Donaciones / Bounty Posters ✅
+
+- **Estado:** Completo (con placeholders)
+- **Archivos creados/modificados:**
+  - `src/assets/qr-bancolombia.svg` — QR placeholder SVG
+  - `src/assets/qr-nequi.svg` — QR placeholder SVG
+  - `src/assets/qr-daviplata.svg` — QR placeholder SVG
+  - `src/components/BountyPoster.jsx` — tarjeta estilo cartel One Piece, props: bank/accountHolder/accountType/accountNumber/qrSrc/reward/accentColor
+  - `src/components/Donaciones.jsx` — grid 3 carteles, datos bancarios placeholder marcados con comentario ⚠️
+  - `src/App.jsx` — `<Donaciones />` integrado, ya no hay placeholders de sección
+- **Build verificado:** ✅ 330ms, sin errores
+- **⚠️ Pendiente antes del deploy final:** reemplazar en `Donaciones.jsx` → números de cuenta reales y SVGs por QR reales (PNG de qr-code-generator.com)
+- **Próximo paso:** Bloque 5 — Footer
 
 ---
 

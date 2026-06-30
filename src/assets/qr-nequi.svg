@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#ffffff" rx="4"/>
+  <!-- Esquina superior izquierda -->
+  <rect x="14" y="14" width="56" height="56" fill="none" stroke="#1a1a1a" stroke-width="5" rx="4"/>
+  <rect x="26" y="26" width="32" height="32" fill="#1a1a1a" rx="2"/>
+  <!-- Esquina superior derecha -->
+  <rect x="130" y="14" width="56" height="56" fill="none" stroke="#1a1a1a" stroke-width="5" rx="4"/>
+  <rect x="142" y="26" width="32" height="32" fill="#1a1a1a" rx="2"/>
+  <!-- Esquina inferior izquierda -->
+  <rect x="14" y="130" width="56" height="56" fill="none" stroke="#1a1a1a" stroke-width="5" rx="4"/>
+  <rect x="26" y="142" width="32" height="32" fill="#1a1a1a" rx="2"/>
+  <!-- Módulos simulados (patrón diferente al de Bancolombia) -->
+  <rect x="86" y="14" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="114" y="14" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="100" y="28" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="86" y="42" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="114" y="42" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="100" y="56" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="86" y="70" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <!-- Fila central -->
+  <rect x="14" y="86" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="42" y="86" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="70" y="86" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="86" y="86" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="114" y="86" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="142" y="86" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="170" y="86" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <!-- Bloque inferior derecho (patrón Nequi) -->
+  <rect x="100" y="100" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="128" y="100" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="156" y="100" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="86" y="114" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="142" y="114" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="178" y="114" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="100" y="128" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="128" y="128" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="156" y="128" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="86" y="142" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="114" y="142" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="170" y="142" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="100" y="156" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="142" y="156" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="178" y="156" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="86" y="170" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="128" y="170" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <rect x="156" y="170" width="8" height="8" fill="#1a1a1a" rx="1"/>
+  <!-- Label -->
+  <text x="100" y="196" text-anchor="middle" font-family="monospace" font-size="7" fill="#888">NEQUI · PLACEHOLDER</text>
+</svg>

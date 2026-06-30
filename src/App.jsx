@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import AboutUs from './components/AboutUs'
+import Donaciones from './components/Donaciones'
 
 export default function App() {
   return (
@@ -9,13 +10,7 @@ export default function App() {
       <main>
         <Hero />
         <AboutUs />
-
-        <section
-          id="donaciones"
-          className="min-h-screen flex items-center justify-center"
-        >
-          <p className="text-nika-cream text-2xl font-cinzel">Donaciones — próximamente</p>
-        </section>
+        <Donaciones />
       </main>
     </div>
   )
