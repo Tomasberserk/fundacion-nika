@@ -112,7 +112,18 @@ Ver: `docs/superpowers/plans/2026-06-30-fundacion-nika-landing.md`
   - `src/components/Hero.jsx` — headline 3 líneas (Cinzel black), grid náutico decorativo, resplandor gold radial, CTA con glow, scroll hint animado
   - `src/App.jsx` — `<Hero />` integrado, placeholders about/donaciones mantenidos
 - **Build verificado:** ✅ 388ms, sin errores
-- **Próximo paso:** Bloque 3 — About Us
+- **Próximo paso:** ~~Bloque 3 — About Us~~ → completado ✅
+
+---
+
+### [2026-06-30] — Bloque 3: About Us ✅
+
+- **Estado:** Completo
+- **Archivos creados/modificados:**
+  - `src/components/AboutUs.jsx` — 3 feature cards (BARF, propósito, cómo funciona), separadores gold, quote One Piece con `font-pirata`
+  - `src/App.jsx` — `<AboutUs />` integrado
+- **Build verificado:** ✅ 273ms, sin errores
+- **Próximo paso:** Bloque 4 — Donaciones (Bounty Posters)
 
 ---
 
