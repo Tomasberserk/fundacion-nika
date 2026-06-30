@@ -151,7 +151,21 @@ Ver: `docs/superpowers/plans/2026-06-30-fundacion-nika-landing.md`
   - `src/App.jsx` — `<Footer />` integrado fuera de `<main>`
 - **Build verificado:** ✅ 308ms, sin errores
 - **⚠️ Pendiente antes del deploy final:** reemplazar en `Footer.jsx` → URLs reales de Instagram, Facebook y email
-- **Próximo paso:** Bloque 6 — Polish & responsive
+- **Próximo paso:** ~~Bloque 6 — Polish & responsive~~ → completado ✅
+
+---
+
+### [2026-06-30] — Bloque 6: Polish ✅
+
+- **Estado:** Completo
+- **Bugs corregidos:**
+  - `index.css`: `--font-family-*` → `--font-*` (namespace correcto en Tailwind v4 — las clases `font-pirata` y `font-cinzel` no aplicaban nada antes)
+  - `index.css`: `scroll-behavior` movido de `*` a `html`; añadido `body { overflow-x: hidden }`
+  - `Hero.jsx`: scroll hint `↓` movido fuera del div flex interior al section (posicionamiento absoluto correcto)
+  - `BountyPoster.jsx`: eliminado `select-none` global; número de cuenta ahora es `select-all cursor-copy` (copiable con un click)
+  - `Navbar.jsx`: añadido `aria-label="Navegación principal"`
+- **Build verificado:** ✅ 244ms, sin errores
+- **Próximo paso:** Bloque 7 — Deploy final en Vercel
 
 ---
 

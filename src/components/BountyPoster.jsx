@@ -4,7 +4,7 @@ export default function BountyPoster({ bank, accountHolder, accountType, account
       className="relative bg-nika-cream text-nika-navy rounded-sm overflow-hidden
         shadow-2xl shadow-black/50
         hover:scale-105 hover:-rotate-1
-        transition-all duration-300 cursor-default select-none"
+        transition-all duration-300 cursor-default"
       style={{ border: `5px solid ${accentColor}` }}
     >
       {/* Header */}
@@ -21,7 +21,7 @@ export default function BountyPoster({ bank, accountHolder, accountType, account
       {/* Cuerpo */}
       <div className="p-5 text-center">
         {/* QR */}
-        <div className="inline-block bg-white border-2 border-gray-200 rounded p-2 mb-4 shadow-inner">
+        <div className="inline-block bg-white border-2 border-gray-200 rounded p-2 mb-4 shadow-inner select-none">
           <img
             src={qrSrc}
             alt={`Código QR para donar a Fundación Nika vía ${bank}`}
@@ -47,7 +47,7 @@ export default function BountyPoster({ bank, accountHolder, accountType, account
             <span className="font-bold text-stone-700">Tipo:</span>{' '}
             {accountType}
           </p>
-          <p className="font-mono font-bold text-sm text-center text-stone-800 pt-1 tracking-wider">
+          <p className="font-mono font-bold text-sm text-center text-stone-800 pt-1 tracking-wider select-all cursor-copy" title="Click para seleccionar">
             {accountNumber}
           </p>
         </div>

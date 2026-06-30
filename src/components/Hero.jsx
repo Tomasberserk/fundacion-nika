@@ -46,7 +46,7 @@ export default function Hero() {
           </span>
         </h1>
 
-        {/* Subtítulo escalonado */}
+        {/* Subtítulo */}
         <div className="text-nika-cream/70 text-lg md:text-xl leading-loose mb-12">
           <p>¿Qué son 2.000 pesos?</p>
           <p>¿Un pastel? ¿Un par de cigarros?</p>
@@ -65,11 +65,11 @@ export default function Hero() {
         >
           ⚓ Quiero salvar el mundo
         </a>
+      </div>
 
-        {/* Scroll hint */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-nika-gold/30 text-xs tracking-widest">
-          <span className="animate-bounce text-xl">↓</span>
-        </div>
+      {/* Scroll hint — hijo directo del section (relative) para posicionarse respecto a la sección */}
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-nika-gold/30 text-xs tracking-widest pointer-events-none">
+        <span className="animate-bounce text-xl">↓</span>
       </div>
     </section>
   )

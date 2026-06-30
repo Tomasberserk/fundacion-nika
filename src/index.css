@@ -5,10 +5,15 @@
   --color-nika-gold: #d4a017;
   --color-nika-cream: #f5f0e8;
   --color-nika-red: #c0392b;
-  --font-family-pirata: 'Pirata One', cursive;
-  --font-family-cinzel: 'Cinzel', serif;
+  --font-pirata: 'Pirata One', cursive;
+  --font-cinzel: 'Cinzel', serif;
 }
 
-* {
+html {
   scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
 }

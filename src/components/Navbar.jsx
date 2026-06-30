@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 w-full z-50 bg-nika-navy/95 backdrop-blur-sm border-b border-nika-gold/30">
+    <nav aria-label="Navegación principal" className="fixed top-0 w-full z-50 bg-nika-navy/95 backdrop-blur-sm border-b border-nika-gold/30">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <a
           href="#hero"
