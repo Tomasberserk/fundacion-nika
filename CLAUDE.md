@@ -139,7 +139,19 @@ Ver: `docs/superpowers/plans/2026-06-30-fundacion-nika-landing.md`
   - `src/App.jsx` — `<Donaciones />` integrado, ya no hay placeholders de sección
 - **Build verificado:** ✅ 330ms, sin errores
 - **⚠️ Pendiente antes del deploy final:** reemplazar en `Donaciones.jsx` → números de cuenta reales y SVGs por QR reales (PNG de qr-code-generator.com)
-- **Próximo paso:** Bloque 5 — Footer
+- **Próximo paso:** ~~Bloque 5 — Footer~~ → completado ✅
+
+---
+
+### [2026-06-30] — Bloque 5: Footer ✅
+
+- **Estado:** Completo (con links placeholder)
+- **Archivos creados/modificados:**
+  - `src/components/Footer.jsx` — logo ⚓, tagline, 3 links sociales, copyright dinámico con `new Date().getFullYear()`
+  - `src/App.jsx` — `<Footer />` integrado fuera de `<main>`
+- **Build verificado:** ✅ 308ms, sin errores
+- **⚠️ Pendiente antes del deploy final:** reemplazar en `Footer.jsx` → URLs reales de Instagram, Facebook y email
+- **Próximo paso:** Bloque 6 — Polish & responsive
 
 ---
 

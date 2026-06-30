@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import AboutUs from './components/AboutUs'
 import Donaciones from './components/Donaciones'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <AboutUs />
         <Donaciones />
       </main>
+      <Footer />
     </div>
   )
 }
